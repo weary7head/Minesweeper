@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kozlo
+namespace Kozlo.CellElements
 {
     public static class CellTypeExtensions
     {

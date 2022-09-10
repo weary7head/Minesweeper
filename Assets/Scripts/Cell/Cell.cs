@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 
-namespace Kozlo
+namespace Kozlo.CellElements
 {
     public class Cell : MonoBehaviour
     {
         private CellType type;
-
     }
 }

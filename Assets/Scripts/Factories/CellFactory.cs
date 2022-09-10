@@ -1,7 +1,8 @@
+using Kozlo.CellElements;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace Kozlo
+namespace Kozlo.Factory
 {
     public abstract class CellFactory : ScriptableObject
     {

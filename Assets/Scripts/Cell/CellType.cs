@@ -1,4 +1,4 @@
-namespace Kozlo
+namespace Kozlo.CellElements
 {
     public enum CellType
     {
