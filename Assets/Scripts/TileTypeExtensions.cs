@@ -24,4 +24,29 @@
                 throw new System.Exception("This is not number");
         }
     }
+
+    public static bool IsNumber(this TileType tileType)
+    {
+        switch (tileType)
+        {
+            case TileType.One:
+                return true;
+            case TileType.Two:
+                return true;
+            case TileType.Three:
+                return true;
+            case TileType.Four:
+                return true;
+            case TileType.Five:
+                return true;
+            case TileType.Six:
+                return true;
+            case TileType.Seven:
+                return true;
+            case TileType.Eight:
+                return true;
+            default:
+                return false;
+        }
+    }
 }
