@@ -6,11 +6,11 @@ namespace Kozlo.Factory
 {
     public abstract class CellFactory : ScriptableObject
     {
-        public Tile Get(CellType tileType)
+        public Tile Get(CellAppearance tileType)
         {
             return GetTile(tileType);
         }
 
-        protected abstract Tile GetTile(CellType tileType);
+        protected abstract Tile GetTile(CellAppearance tileType);
     }
 }

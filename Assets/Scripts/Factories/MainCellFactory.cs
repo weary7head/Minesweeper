@@ -22,35 +22,35 @@ namespace Kozlo.Factory
         [SerializeField] private Tile seven;
         [SerializeField] private Tile eight;
 
-        protected override Tile GetTile(CellType tileType)
+        protected override Tile GetTile(CellAppearance tileType)
         {
             switch (tileType)
             {
-                case CellType.Empty:
+                case CellAppearance.Empty:
                     return empty;
-                case CellType.Mine:
+                case CellAppearance.Mine:
                     return mine;
-                case CellType.One:
+                case CellAppearance.One:
                     return one;
-                case CellType.Two:
+                case CellAppearance.Two:
                     return two;
-                case CellType.Three:
+                case CellAppearance.Three:
                     return three;
-                case CellType.Four:
+                case CellAppearance.Four:
                     return four;
-                case CellType.Five:
+                case CellAppearance.Five:
                     return five;
-                case CellType.Six:
+                case CellAppearance.Six:
                     return six;
-                case CellType.Seven:
+                case CellAppearance.Seven:
                     return seven;
-                case CellType.Eight:
+                case CellAppearance.Eight:
                     return eight;
-                case CellType.Unknown:
+                case CellAppearance.Unknown:
                     return unknown;
-                case CellType.Flag:
+                case CellAppearance.Flag:
                     return flag;
-                case CellType.Exploded:
+                case CellAppearance.Exploded:
                     return exploded;
                 default:
                     throw new Exception("No tile for this type");

@@ -1,8 +1,11 @@
 namespace Kozlo.CellElements
 {
-    public enum CellType
+    public enum CellAppearance
     {
         Empty,
+        Unknown,
+        Flag,
+        Exploded,
         Mine,
         One,
         Two,
