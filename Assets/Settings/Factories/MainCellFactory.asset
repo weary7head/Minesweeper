@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce18d26e998e6334b82bb1624ba90d47, type: 3}
   m_Name: MainCellFactory
   m_EditorClassIdentifier: 
-  empty: {fileID: 0}
-  mine: {fileID: 0}
-  unknown: {fileID: 0}
-  flag: {fileID: 0}
-  exploded: {fileID: 0}
-  one: {fileID: 0}
-  two: {fileID: 0}
-  three: {fileID: 0}
-  four: {fileID: 0}
-  five: {fileID: 0}
-  six: {fileID: 0}
-  seven: {fileID: 0}
-  eight: {fileID: 0}
+  empty: {fileID: 11400000, guid: dd1624d568a861744b400ec4b1506cb5, type: 2}
+  mine: {fileID: 11400000, guid: 03bb6bbbe735c404e81d1400f02bb8e1, type: 2}
+  unknown: {fileID: 11400000, guid: f36da4284282d4c46af22a416ff5ea73, type: 2}
+  flag: {fileID: 11400000, guid: 616cf44e48a926044871b04117e772e1, type: 2}
+  exploded: {fileID: 11400000, guid: cc66c6cc43bd07b439afd176e5d47da5, type: 2}
+  one: {fileID: 11400000, guid: 3b6561980412d1a4d8d0e542a1dba488, type: 2}
+  two: {fileID: 11400000, guid: 2ae5b274f24eb944aaa766d4d14d275c, type: 2}
+  three: {fileID: 11400000, guid: 71e376056e5bc874abc2a30aa634f192, type: 2}
+  four: {fileID: 11400000, guid: 04dc66fe7f068d24795fddedd6c5d967, type: 2}
+  five: {fileID: 11400000, guid: 1fac4ccb3ad6d34419aa888668076abb, type: 2}
+  six: {fileID: 11400000, guid: 805bcac3157573a4baeb77a48d30a1aa, type: 2}
+  seven: {fileID: 11400000, guid: 8ad338009df8f374882eb7ebb12d3538, type: 2}
+  eight: {fileID: 11400000, guid: fb171edc64847da45bfa305f337cdbae, type: 2}
