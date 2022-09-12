@@ -426,7 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d18cf96618989284faf58ea91f91f059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 5
+  rows: 8
   columns: 5
   board: {fileID: 1462452498}
 --- !u!4 &1387848100

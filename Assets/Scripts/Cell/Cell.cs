@@ -16,5 +16,10 @@ namespace Kozlo.CellElements
             Type = type;
             State = state;
         }
+
+        public void ChangeTypeToMine()
+        {
+            Type = CellType.Mine;
+        }
     }
 }
