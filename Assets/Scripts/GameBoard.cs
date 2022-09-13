@@ -58,22 +58,22 @@ public class GameBoard : MonoBehaviour
         {
             if (cell.Type != CellType.Mine)
             {
-                int minesCount = GetMinesCountAroundCell(cell.Position.x, cell.Position.y);
+                int minesCount = GetMinesCountAroundCell(cell.Position);
                 cell.ChangeTypeToNumber(minesCount);
             }
         }
     }
 
-    private int GetMinesCountAroundCell(int i, int j)
+    private int GetMinesCountAroundCell(Vector3Int position)
     {
         int mines = 0;
         for (int x = -1; x <= 1; x++)
         {
             for (int y = -1; y <= 1; y++)
             {
-                if (x + i >= 0 && x + i < cells.GetLength(0) && y + j >= 0 && y + j < cells.GetLength(1))
+                if (x + position.x >= 0 && x + position.x < cells.GetLength(0) && y + position.y >= 0 && y + position.y < cells.GetLength(1))
                 {
-                    if (cells[x + i, y + j].Type == CellType.Mine)
+                    if (cells[x + position.x, y + position.y].Type == CellType.Mine)
                     {
                         mines++;
                     }

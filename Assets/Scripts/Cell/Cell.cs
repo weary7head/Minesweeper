@@ -20,7 +20,6 @@ namespace Kozlo.CellElements
         public void ChangeTypeToMine()
         {
             Type = CellType.Mine;
-            Appearance = CellAppearance.Mine;
         }
 
         public void ChangeTypeToNumber(int minesCount)
