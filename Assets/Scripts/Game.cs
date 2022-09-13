@@ -9,6 +9,6 @@ public class Game : MonoBehaviour
 
     private void Start()
     {
-        board.InitializeBoard(cells);
+        board.InitializeBoard(new MinesweeperSettings(rows, columns, mines));
     }
 }
